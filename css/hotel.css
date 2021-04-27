@@ -1,0 +1,20 @@
+.bg-light {
+    background-color: rgb(116, 177, 233) !important;
+}
+
+.degradehotel {
+    background: linear-gradient(to right, #434343 0%, black 100%);
+}
+.cuerpo_centro img {
+    width: 300px;
+    height: 200px;
+}
+.caja_1 {
+    width: 1920px; height: 700px;
+    background-image: url("../img/toalla.jpg") !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.textdiv {
+    vertical-align: bottom;
+}
