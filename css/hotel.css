@@ -10,11 +10,15 @@
     height: 200px;
 }
 .caja_1 {
-    width: 1920px; height: 700px;
+    width: 1800px; height: 500px;
     background-image: url("../img/toalla.jpg") !important;
     background-size: contain;
     background-repeat: no-repeat;
-}
+    margin-bottom: 0;
+    margin-left: 0px;
+    
+    }
 .textdiv {
-    vertical-align: bottom;
+    margin-top: 300px;    
+    margin-bottom: 0;
 }
