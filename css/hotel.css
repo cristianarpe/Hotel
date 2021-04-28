@@ -22,3 +22,8 @@
     margin-top: 300px;    
     margin-bottom: 0;
 }
+.card-img-top{
+    width: 200px !important;
+    height: 200px !important;
+    
+}
