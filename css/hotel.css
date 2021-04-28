@@ -6,11 +6,13 @@
     background: linear-gradient(to right, #434343 0%, black 100%);
 }
 .cuerpo_centro img {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
+    margin: 0.2em;
+    border-radius: 15px;
 }
 .caja_1 {
-    width: 1800px; height: 500px;
+    width: 100%; height: 500px;
     background-image: url("../img/toalla.jpg") !important;
     background-size: contain;
     background-repeat: no-repeat;
@@ -23,6 +25,7 @@
     margin-bottom: 0;
 }
 .card-img-top{
+    margin-top: 10px;
     width: 200px !important;
     height: 200px !important;
     
