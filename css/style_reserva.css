@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
 
-*{
-    margin: 2px;
-    padding: 1px;
-}
+
 body {
+
+    padding: 2px;
+    margin: 2px;
     display: flex;
     flex-wrap: wrap;
     background: rgb(2,0,36);
@@ -21,9 +21,10 @@ nav{
     margin-bottom: 1em;
 }
 section{
-    width: 64%;
+    width: 60%;
     border: 4px solid #ddd;
     padding: 3em;
+    margin: 2em;
     
 }
 aside{
@@ -47,7 +48,7 @@ aside{
 footer{
     margin: 1em;
     width: 100%;
-    height: 380px;
+    height: 340px;
     padding-top: 30px;
     border-top-style:double;
     border-top-width: 0.6em ;
@@ -62,28 +63,36 @@ footer{
     padding: 0.9em;
 }
 .footer_b{
-    width: 99%;
+    width: 100%;
     color: #ddd;
     font-size: 0.9em;
     padding: 0.5em;
     text-align: center;
     border-top:2px solid #191f8d;
+    align-items: center;
     
 }
 .footer_a_1{
-    width: 20%;  
-    text-align: center; 
-    padding: 0.9em;
+    width: 30%;  
+    text-align: center;
+    
+    
 }
 .footer_h6{
     font-size: 2em;
     font-family: Open Sans;
     color: rgb(107, 131, 134);
+    text-align: center; 
 }
 li{
+    text-decoration: none;
     list-style:none;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: 'Assistant', sans-serif;
+    padding: 0.1em;
+    
 }
 
-
+.link_footer{
+    text-decoration: none !important; 
+}
