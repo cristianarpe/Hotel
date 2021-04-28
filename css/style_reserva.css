@@ -26,7 +26,41 @@ section{
     padding: 3em;
     margin: 2em;
     
+    
 }
+
+
+#titulo_section{
+    text-shadow: 1px 3px 4px blue;
+}
+
+.panel-dropdown.active .panel-dropdown-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.panel-dropdown .panel-dropdown-content {
+    position: absolute;
+    margin-top: 15px;
+    padding: 20px;
+    width: 300px;
+    visibility: hidden;
+    opacity: 0;
+    background: #fff;
+    border: 1px solid #efefef;
+    -webkit-box-shadow: 0 12px 26px 0 rgb(178 178 178 / 13%);
+    box-shadow: 0 12px 26px 0 rgb(178 178 178 / 13%);
+    border-radius: 2px;
+    z-index: 99;
+}
+
+
+
+
+
+
+
+
 aside{
     width: 34.5%;
     background-color: #040629;
@@ -39,7 +73,7 @@ aside{
 }
 .image_aside{
     width: 100%;
-    height: 18%;
+    height: 20%;
     border-radius: 15px;
     border: 4px solid #ddd;
     display:block;
