@@ -29,6 +29,10 @@ section li{
     text-align:justify;
     margin: 0 200px;
 }
+hr.linie{
+    border: 1px solid blue;
+    margin: 3em;
+}
 
 
 
