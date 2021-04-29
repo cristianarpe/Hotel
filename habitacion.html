@@ -10,31 +10,30 @@
     <link rel="shortcut icon" href="img/logonegro.ico" type="image/x-icon">
 
 </head>
-<body>
-
+<body style=" background: linear-gradient(to right, #3775d1 0%, black 100%)">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
-            <a class="navbar-brand active" href="index.html"><img src="img/logonegro.png" width="80" height="80" alt="Logo Hoteles Nova"> HOTEL NOVA SAS</a>
+            <a class="navbar-brand" href="#"><img src="img/logonegro.png" width="80" height="80" alt="Logo Hoteles Nova"> HOTEL NOVA SAS</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="habitacion.html">Habitaciones</a>
+                        <a class="nav-link" href="">Habitaciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="paquetes.html">Paquetes</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="acerca.html">Acerca de</a>
+                        <a class="nav-link" href="">Paquetes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="noticias.html">Noticias</a>
+                        <a class="nav-link" href="#">Acerca de</a>
                     </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="reserva.html">Reservar ahora</a>
@@ -44,8 +43,66 @@
         </div>
     </nav>
 
+    <section>
+        //habitaciones
+        <div class="cuartos">
+            <div class="sencilla">
+                <img src="img\habitaciones\2.jpg" alt="sencilla"width="300px" height="200px">
+            </div>
+            <div class="vista">
+                <img src="img\habitaciones\1.webp" alt="vista"width="300px" height="200px">
+            </div>
+            <div class="de lujo">
+                <img src="img\habitaciones\7.jpg" alt="doble"width="300px" height="200px">
+            </div>
+            <div class="doble">
+                <img src="img\habitaciones\13.jpg" alt="doble"width="300px" height="200px">
+            </div>
+            
+            <div class="texsenci">
+                <p>
+                  Dentro de un habiente elegante, usted encontrará toda la privacidad y confort para sus viajes de negocios<br>
+                </p>
+            </div>
+            <div class="texvist">
+                <p>
+                    Si desea un hambiente rodeado de una excelente vista que le permita disfrutar de la naturaleza y privacidad al mismo tiempo, nuestro hotel es lo que busca
+                </p>
+            </div>
+            <div class="de lujo">
+                <p>
+                    Nuestras habitaciones de lujo le permitiran realizar reuniones de trabajo dentro de un hambiente elegante y familiar                </p>
+            </div> <div class="texvist">
+                <p>
+                    Si desea pasar una temporada con su familia, nestro hotel le brinda la oportunidad de descansar y pasar tiempo con sus hijos
+                </p>
+            </div>
+        </div>
+        <style>
 
+            .cuartos{
+                display: grid;
+                grid-template-columns: repeat(4, 4fr);
+                grid-gap:20px;
+            }
+            .uno{
+                grid-column:2;
+                grid-row:4;
+            }
+            .cuartos div{
+                background-color: rgb(176, 175, 190);
+                padding: 1em;
+            }
+        </style>
+    </section>
+    
+    <aside>
+        //ofertas
+    </aside>
 
+    <footer>
+
+    </footer>
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/popper.min.js" ></script>
         <script src="js/bootstrap.js" ></script>
