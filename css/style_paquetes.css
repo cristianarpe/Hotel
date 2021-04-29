@@ -1,0 +1,133 @@
+
+
+
+/*estilos section- inicio*/
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px 100px;
+    justify-content: center;
+
+}
+
+.flex-item{
+    width: 600px;
+    height: 500px;
+    margin: 20px 0;
+}
+
+.img_section_paquetes{
+    width: 600px;
+    height: 500px;
+    border-bottom: 3px   solid #191f8d;
+    border-top: 3px   solid #191f8d;
+    border-right: 3px   solid #191f8d;
+    border-radius: 0 15px 15px 0;
+}
+
+.flex-item_text{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(167, 167, 255);
+    margin: 20px 0;
+    border-radius: 15px 0 0 15px ;
+    border-bottom: 3px   solid #191f8d;
+    border-top: 3px   solid #191f8d;
+    border-left: 3px   solid #191f8d;
+    padding: 3em 2em;
+}
+
+.flex-item_text_1{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(167, 167, 255);
+    margin: 20px 0;
+    border-radius: 0 15px 15px 0 ;
+    border-bottom: 3px   solid #191f8d;
+    border-top: 3px   solid #191f8d;
+    border-right: 3px   solid #191f8d;
+    padding: 3em 2em;
+}
+
+.flex-item_text li, .flex-item_text_1 li{
+    color:  #191f8d;;
+    font-size: 15px;
+    margin: 1em;
+}
+
+.flex-item_text ul, .flex-item_text_1 ul{
+    margin: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*estilos section- termina*/
+
+
+/*estilos Footer - inicio*/
+
+footer{
+    margin: 1em;
+    width: 98%;
+    height: 340px;
+    padding-top: 30px;
+    border-top-style:double;
+    border-top-width: 0.6em ;
+    border-top-color: #191f8d;
+}
+.footer_flex-container{
+    width: 100%;
+    color: #ddd;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 0.9em;
+}
+.footer_b{
+    width: 100%;
+    color: blue;
+    font-size: 0.9em;
+    text-align: center;
+    border-top:2px solid #191f8d;
+    align-items: center;
+    
+}
+.footer_a_1{
+    width: 30%;  
+    text-align: center;
+    
+    
+}
+.footer_h6{
+    font-size: 2em;
+    font-family: Open Sans;
+    color: rgb(107, 131, 134);
+    text-align: center; 
+}
+li{
+    text-decoration: none;
+    list-style:none;
+    font-size: 1.4em;
+    font-family: 'Assistant', sans-serif;
+    padding: 0.1em;
+    
+}
+
+.link_footer{
+    text-decoration: none !important; 
+}
+
+/*estilos Footer - final*/
