@@ -8,11 +8,9 @@
 .cuerpo_centro img {
     width: 400px;
     height: 300px;
-    margin: 0.2em;
-    border-radius: 10px;
 }
 .caja_1 {
-    width: 100%; height: 500px;
+    width: 1800px; height: 500px;
     background-image: url("../img/toalla.jpg") !important;
     background-size: contain;
     background-repeat: no-repeat;
@@ -29,8 +27,4 @@
     width: 200px !important;
     height: 200px !important;
     
-}
-.iconos {
-    width: 45px !important;
-    height: 45px !important;
 }
