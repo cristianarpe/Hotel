@@ -45,67 +45,91 @@
 
     <section>
 
-        <label color: cyan></label><h1> HABITACIONES</h1>
 
-<h3>Dormitorios diseñados para proporcionarle el máximo bienestar. Las 311 habitaciones de cada uno de los Hoteles NOVA son espacios únicos que le proponen un descanso muy especial a pocos metros de los principales monumentos de interés turístico y de negocios de las principales ciudades. Relájese en sus vacaciones y viajes de negocios mientras disfruta de una estadía llena de confort en nuestros alojamientos.</h3>>
+        <h1 class="text-center font-weight-bold text-primary" style="color:blanchedalmond">
+            <br>
+            HABITACIONES
+            <br></h1>
+
+<p  class=" text-justify" style="color:blanchedalmond">Dormitorios diseñados para proporcionarle el máximo bienestar. Las 311 habitaciones de cada uno de los Hoteles NOVA son espacios únicos que le proponen un descanso muy especial a pocos metros de los principales monumentos de interés turístico y de negocios de las principales ciudades. Relájese en sus vacaciones y viajes de negocios mientras disfruta de una estadía llena de confort en nuestros alojamientos.</p>>
 
         <div class="cuartos">
-            <div class="sencilla">
-                <img src="img\habitaciones\2.jpg" alt="sencilla"width="300px" height="200px">
-            </div>
-            <div class="vista">
-                <img src="img\habitaciones\1.webp" alt="vista"width="300px" height="200px">
-            </div>
-            <div class="de lujo">
-                <img src="img\habitaciones\7.jpg" alt="doble"width="300px" height="200px">
-            </div>
-            <div class="doble">
-                <img src="img\habitaciones\13.jpg" alt="doble"width="300px" height="200px">
+            <div class="stand">
+                <img   src="img\habitaciones\2.jpg" alt="sencilla"width="400px" height="200px">
             </div>
             
-            <div class="texsenci">
-                <p>
-                  Dentro de un habiente elegante, usted encontrará toda la privacidad y confort para sus viajes de negocios<br>
+            <div class="texstand">
+                <p class=" text-justify" aling="justify-content-end" style="color:blanchedalmond">
+                  HABITACION STANDAR <BR>Dentro de un habiente elegante, usted encontrará toda la privacidad y confort para sus viajes de negocios<br>
+                <BR> Todas nuestras habitaciones están equipadas con cajilla de seguridad, televisión, mesa de trabajo, wifi sin costo adicional y baño privado con amenities.
                 </p>
             </div>
-            <div class="texvist">
-                <p>
-                    Si desea un hambiente rodeado de una excelente vista que le permita disfrutar de la naturaleza y privacidad al mismo tiempo, nuestro hotel es lo que busca
+            <div class="texlook">
+                <p aling="justify-content-end" style="color:blanchedalmond">
+                    <br> STANDAR LOOK<BR>
+                    Si desea un hambiente rodeado de una excelente vista que le permita disfrutar de la naturaleza y privacidad al mismo tiempo, 
+                    nuestras habitaciones LOOK son la opcion perfecta para que disfrute de una excelente experiencia.
                 </p>
             </div>
-            <div class="de lujo">
-                <p>
-                    Nuestras habitaciones de lujo le permitiran realizar reuniones de trabajo dentro de un hambiente elegante y familiar                </p>
-            </div> <div class="texvist">
-                <p>
-                    Si desea pasar una temporada con su familia, nestro hotel le brinda la oportunidad de descansar y pasar tiempo con sus hijos
+            <div class="look">
+                <img src="img\habitaciones\1.webp" alt="vista"width="400px" height="200px">
+            </div>
+            <div class="stjunior">
+                <img src="img\habitaciones\7.jpg" alt="doble"width="400px" height="200px">
+            </div>
+            <div class="textstjunior">
+                <br><br>
+                <p aling="justify-content-end" style="color:blanchedalmond">SUITES JUNIOR<BR>
+                    Las SUITES JUNIOR  son las habitaciones más exclusivas del alojamiento. En ellas podrá relajarse en dos ambientes diferentes que proporcionan una atmósfera muy elegante y tranquila. Se dividen en una sala de estar y un dormitorio con una cama doble con 45 m². 
                 </p>
             </div>
+            <div class="texttwin">
+                <p aling="justify-content-end" style="color:blanchedalmond">
+                    <br>
+                    HABITACIONES TWIN<BR>
+                  <br>  Las habitaciones TWIN  están pensadas para garantizar un plus de espacio para viajes de negocios y vacaciones. Disponen de 28 m2 que cuentan con dos camas individuales, cajilla de seguridad, televisión, mesa de trabajo, wifi sin costo adicional y baño privado con amenities.
+                </p>
+            </div>
+            <div class="twin">
+                <img src="img\habitaciones\13.jpg" alt="doble"width="400px" height="200px">
+            </div>
+              <br>
+              <br>
+              
+                    
+
         </div>
         <style>
+            .pie{
+                background-color: blanchedalmond;
+                text-align: center;
+            }
 
             .cuartos{
                 display: grid;
-                grid-template-columns: repeat(4, 4fr);
-                grid-gap:20px;
+                grid-template-columns: repeat(2, 4fr);
+                grid-gap:15px;
             }
             .uno{
-                grid-column:2;
-                grid-row:4;
+                grid: column 3px;
+                grid-row:3px;
             }
             .cuartos div{
-                background-color: rgb(176, 175, 190);
-                padding: 1em;
+                
+                padding: 1px;
             }
         </style>
     </section>
     
     <aside>
-        //ofertas
+        
     </aside>
 
     <footer>
-
+    <div class= pie>
+              <p>Hoteles Nova. no es responsable del contenido en sitios web externos. © 2021 Hoteles Group Nova Company.<br> 
+                Todos los derechos reservados.</p>
+    </div>
     </footer>
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/popper.min.js" ></script>
