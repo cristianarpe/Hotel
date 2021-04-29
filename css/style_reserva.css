@@ -13,6 +13,7 @@ section{
     width: 60%;
     border: 4px solid #ddd;
     padding: 3em;
+    margin: 2px;
     
 }
 
@@ -42,7 +43,7 @@ aside{
 }
 footer{
     margin: 1em;
-    width: 100%;
+    width: 98%;
     height: 340px;
     padding-top: 30px;
     border-top-style:double;
