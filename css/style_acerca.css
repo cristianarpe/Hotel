@@ -2,6 +2,33 @@
 
 
 
+/* estilos section  inicio*/
+section{
+    margin: 37px;
+}
+.Tituo_section{
+    text-align: center;
+    font-size: 4em;
+}
+
+.img_historia_section{
+    width: 420px;
+    height: 320px;
+    margin: 13px;
+    
+}
+
+.text_historia_section{
+    text-align: justify;
+    margin: 2em 9em;
+    font-size: 1.2em;
+}
+
+section li{
+    font-size: 1.1em;
+    text-align:justify;
+    margin: 0 200px;
+}
 
 
 
@@ -14,11 +41,7 @@
 
 
 
-
-
-
-
-
+/* estilos section  inicio*/
 
 /*estilos Footer - inicio*/
 
