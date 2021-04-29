@@ -3,13 +3,23 @@
 
 
 /* estilos section  inicio*/
+.Tituo_section{
+    text-align: center;
+    font-size: 4em;
+}
 
 .img_historia_section{
-    width: 450px;
-    height: 350px;
-    margin: 10px;
-
+    width: 420px;
+    height: 320px;
+    margin: 13px;
+    
 }
+
+.text_historia_section{
+    text-align: justify;
+    margin: 2em 9em;
+}
+
 
 
 
