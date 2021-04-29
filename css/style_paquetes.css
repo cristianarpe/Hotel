@@ -3,11 +3,47 @@
 
 /*estilos section- inicio*/
 
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px 200px;
+
+}
+
+.flex-item{
+    width: 450px;
+    height: 350px;
+    flex-grow: 2;
+    margin: 20px 0;
+}
 
 .img_section_paquetes{
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
+    border-bottom: 3px   solid #191f8d;
+    border-top: 3px   solid #191f8d;
+    border-right: 3px   solid #191f8d;
+    border-radius: 0 15px 15px 0;
 }
+
+.flex-item_text{
+    width: 450px;
+    height: 350px;
+    background-color: rgb(167, 167, 255);
+    margin: 20px 0;
+    border-radius: 15px 0 0 15px ;
+    border-bottom: 3px   solid #191f8d;
+    border-top: 3px   solid #191f8d;
+    border-left: 3px   solid #191f8d;
+}
+
+.flex-item_text li{
+    color:  #191f8d;;
+    font-size: 15px;
+}
+
+
+
 
 
 
