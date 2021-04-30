@@ -412,7 +412,7 @@ li{
    }
 
 
-@media screen and (min-width:400px) and (max-width:600px) {
+@media screen and (min-width:400px) and (max-width:500px) {
     /* Nuestras nuevas reglas con este ancho o más de pantalla */
 
     
@@ -421,7 +421,6 @@ li{
 
 .flex-container{
     display: flex;
-    flex-direction:column;
     justify-content:center;
     margin:1px ;
     width: 100%;
@@ -431,7 +430,7 @@ li{
 .flex-item{
     width: 398px;
     height: 250px;
-    margin:0 0 0  5px ;
+    margin:0 0 0  12px ;
 }
 
 .img_section_paquetes{
