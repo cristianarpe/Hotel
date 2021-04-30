@@ -5,26 +5,75 @@
 .degradehotel {
     background: linear-gradient(to right, #434343 0%, black 100%);
 }
-.cuerpo_centro img {
-    width: 400px;
-    height: 300px;
+.flex-contenedor{
+    display: flex;
 }
+/*.cuerpo_centro img {
+    width: 39%;
+    height: 35%;
+}*/
 .caja_1 {
-    width: 1800px; height: 500px;
+    
     background-image: url("../img/toalla.jpg") !important;
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 0;
     margin-left: 0px;
     
+    
     }
+
+.logocaja {
+width: 20%;
+height: 20%;
+}    
 .textdiv {
-    margin-top: 300px;    
+    margin-top: 180px;    
     margin-bottom: 0;
 }
-.card-img-top{
+/*.card-img-top{
     margin-top: 10px;
-    width: 200px !important;
-    height: 200px !important;
+    width: 39% !important;
+    height: 35%!important;
+    
+
+} */
+.tabla{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
     
 }
+.uno{
+    grid-column:1/2;
+    grid-row:1;
+    padding: 1em 2em;
+    
+    }
+.dos{
+    grid-column:2/3;
+    grid-row:1;
+    padding: 0em 2em;
+}
+.tres{
+    grid-column:3/4;
+    grid-row:1;
+    padding: 0em 2em;
+}
+.cuatro {
+    grid-column:1/2;
+    grid-row:2;
+
+}
+.cinco{
+    grid-column:2/3;
+    grid-row:2;
+    padding: 0em 2em;
+}
+.seis{
+    grid-column:3/4;
+    grid-row:2;
+}
+.tabla div{
+    text-align: center;
+    }
