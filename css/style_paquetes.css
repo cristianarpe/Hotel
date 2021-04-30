@@ -350,35 +350,34 @@ li{
 /*estilos Footer - inicio*/
 
 footer{
-    margin: 1em;
+    margin: 0.5em;
     width: 98%;
-    height: 340px;
-    padding-top: 30px;
+    height: 610px;
+    padding-top: 5px;
     border-top-style:double;
-    border-top-width: 0.6em ;
+    border-top-width: 0.3em ;
     border-top-color: #191f8d;
 }
 .footer_flex-container{
-    width: 100%;
+    width: 99%;
     color: #ddd;
-    font-size: small;
     display: flex;
-    justify-content: center;
+    flex-direction:column;
     padding: 0.9em;
+    text-align: center;
 }
 .footer_b{
-    width: 100%;
+    width: 99%;
     color: blue;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-align: center;
     border-top:2px solid #191f8d;
     align-items: center;
     
 }
 .footer_a_1{
-    width: 30%;  
+    width: 98%;  
     text-align: center;
-    
     
 }
 .footer_h6{
@@ -390,10 +389,14 @@ footer{
 li{
     text-decoration: none;
     list-style:none;
-    font-size: 1.4em;
+    font-size: 1em;
     font-family: 'Assistant', sans-serif;
     padding: 0.1em;
     
+}
+
+.footer_a_1 ul{
+    padding: 0px;
 }
 
 .link_footer{
