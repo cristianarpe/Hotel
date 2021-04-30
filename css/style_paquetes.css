@@ -135,14 +135,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /*estilos section- termina*/
 
 
@@ -200,3 +192,12 @@ li{
 }
 
 /*estilos Footer - final*/
+
+@media screen and (max-width:[ANCHO]px) {
+    /* Nuestras nuevas reglas con este ancho o menos de pantalla */
+   }
+
+
+@media screen and (min-width:400px) and (max-width:600px) {
+    /* Nuestras nuevas reglas con este ancho o más de pantalla */
+   }
