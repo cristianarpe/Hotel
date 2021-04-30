@@ -54,7 +54,7 @@
 <p class="text-center" style="color:blanchedalmond">Dormitorios diseñados para proporcionarle el máximo bienestar. Las 311 habitaciones de cada uno de los Hoteles NOVA son espacios únicos que le proponen un descanso muy especial a pocos metros de los principales monumentos de interés turístico y de negocios de las principales ciudades. Relájese en sus vacaciones y viajes de negocios mientras disfruta de una estadía llena de confort en nuestros alojamientos.</p>>
 
         <div class="cuartos">
-            <div class="stand">
+            <div class="cuarto">
                 <img   src="img\habitaciones\2.jpg" alt="sencilla"width="400px" height="200px" >
             </div>
             
@@ -71,10 +71,10 @@
                     nuestras habitaciones LOOK son la opcion perfecta para que disfrute de una excelente experiencia.
                 </p>
             </div>
-            <div class="look">
+            <div class="cuarto">
                 <img src="img\habitaciones\1.webp" alt="vista"width="400px" height="200px">
             </div>
-            <div class="stjunior">
+            <div class="cuarto">
                 <img src="img\habitaciones\7.jpg" alt="doble"width="400px" height="200px">
             </div>
             <div class="textstjunior">
@@ -90,16 +90,21 @@
                   <br>  Las habitaciones TWIN  están pensadas para garantizar un plus de espacio para viajes de negocios y vacaciones. Disponen de 28 m2 que cuentan con dos camas individuales, cajilla de seguridad, televisión, mesa de trabajo, wifi sin costo adicional y baño privado con amenities.
                 </p>
             </div>
-            <div class="twin">
+            <div class="cuarto">
                 <img src="img\habitaciones\13.jpg" alt="doble"width="400px" height="200px">
             </div>
-             
+            <div class="cuarto">
+                <img src="img\habitaciones\9.webp" alt="doble"width="400px" height="200px">
+            </div>
+            <div class="textmiel">
+                <br><br>
+                <p aling="justify-content-end" style="color:blanchedalmond">SUITES MATRIMONIAL<BR>
+                    La Suite Matrimonial es una amplia habitación doble con  sala de estar y sillón, aire acondicionado, TV de pantalla plana por cable, minibar y salida a la piscina privada. 
+                </p>
+            </div>
         </div>
         <br>
         <br>
-        <div class="prueb">
-            <img src="img\habitaciones\19.jpg" width="100px" height="100px" id="prueb">
-        </div>
     
     </section>
     <br>
@@ -128,16 +133,16 @@
 
             .cuartos{
                 display: grid;
-                grid-template-columns: repeat(2, 4fr);
+                grid-template-columns: repeat(2, 6fr);
                 grid-gap:15px;
                 text-align: center;
             }
             .uno{
-                grid: column 3px;
-                grid-row:3px;
+                grid: column 2px;
+                grid: row 6px;
             }
             .cuartos div{
-                background-color: rgb(95, 94, 92);
+                background-color: rgb(131, 140, 141);
                 padding: 2px;
                 margin-left: 3%;
                 margin-right: 3%;
@@ -146,10 +151,13 @@
             .prueb{
                 background-image: url("img\habitaciones\16.jpg");
             }
-
-            .prueb:hover{
+            
+            .cuarto:hover{
                 opacity: 50%;
             }
+
+
+
         </style>
 </body>
 </html>
