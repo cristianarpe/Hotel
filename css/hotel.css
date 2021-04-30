@@ -5,10 +5,13 @@
 .degradehotel {
     background: linear-gradient(to right, #434343 0%, black 100%);
 }
-.cuerpo_centro img {
-    width: 390px;
-    height: 350px;
+.flex-contenedor{
+    display: flex;
 }
+/*.cuerpo_centro img {
+    width: 39%;
+    height: 35%;
+}*/
 .caja_1 {
     
     background-image: url("../img/toalla.jpg") !important;
@@ -21,20 +24,20 @@
     }
 
 .logocaja {
-width: 100px;
-height: 100px;
+width: 20%;
+height: 20%;
 }    
 .textdiv {
     margin-top: 180px;    
     margin-bottom: 0;
 }
-.card-img-top{
+/*.card-img-top{
     margin-top: 10px;
-    width: 390px !important;
-    height: 350px !important;
+    width: 39% !important;
+    height: 35%!important;
     
 
-}
+} */
 .tabla{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -45,6 +48,7 @@ height: 100px;
     grid-column:1/2;
     grid-row:1;
     padding: 1em 2em;
+    
     }
 .dos{
     grid-column:2/3;
