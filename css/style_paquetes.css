@@ -193,8 +193,219 @@ li{
 
 /*estilos Footer - final*/
 
-@media screen and (max-width:[ANCHO]px) {
+@media screen and (max-width:360px) {
     /* Nuestras nuevas reglas con este ancho o menos de pantalla */
+
+    
+
+/*estilos section- inicio*/
+
+.flex-container{
+    display: flex;
+    flex-direction:column;
+    margin:3px ;
+
+}
+
+.flex-item{
+    width: 310px;
+    height: 220px;
+    margin:0 0 0  5px ;
+}
+
+.img_section_paquetes{
+    width: 310px;
+    height: 220px;
+    border-bottom: 3px   solid rgb(164, 164, 246);
+    border-top: 0px ;
+    border-right: 3px   solid rgb(164, 164, 246);
+    border-left: 3px   solid rgb(164, 164, 246);
+    border-radius: 0px  0px 15px  15px ;
+    margin-bottom: 10px;
+}
+
+.img_section_paquetes_1{
+    width: 310px;
+    height: 220px;
+    border-top: 3px   solid #191f8d;
+    border-left: 3px   solid #191f8d;
+    border-right: 3px   solid #191f8d;
+    border-radius: 15px 15px 0 0px ;
+    border-bottom: 0px;
+    margin-top: 10px;
+}
+
+.flex-item_text{
+    width: 310px;
+    height: 515px;
+    background-color: #080b35;
+    margin: 5px 2px 0px 5px;
+    border-radius: 15px 15px 0 0 ;
+    border-right: 3px   solid rgb(164, 164, 246);
+    border-top: 3px   solid rgb(164, 164, 246);
+    border-left: 3px   solid rgb(164, 164, 246);
+    border-bottom: 0px;
+    padding: 0.2em;
+}
+
+.flex-item_text_1{
+    width: 310px;
+    height: 510px;
+    background-color: rgb(229, 226, 226);
+    margin: 0px 2px 2px 5px;
+    border-radius: 0 0 15px 15px  ;
+    border-bottom: 3px   solid #191f8d;
+    border-right: 3px   solid #191f8d;
+    border-left: 3px   solid #191f8d;
+    border-top: 0px;
+    padding: 0.1em;
+}
+
+
+
+.flex-item_text_1{
+    width: 310px;
+    height: 500px;
+    background-color: rgb(229, 226, 226);
+    margin: 0px 2px 2px 5px;
+    border-radius: 0 0 15px 15px  ;
+    border-bottom: 3px   solid #191f8d;
+    border-right: 3px   solid #191f8d;
+    border-left: 3px   solid #191f8d;
+    border-top: 0px;
+    padding: 0.1em;
+}
+
+.flex-item_text_1 ul{
+    padding-left: 20px;
+    padding-right: 8px;
+    
+}
+
+.flex-item_text ul{
+    padding-left: 20px;
+    padding-right: 8px;
+    
+}
+
+
+ .flex-item_text_1 li{
+    color:  #111566;;
+    font-size: 0.7em;
+
+}
+.flex-item_text li{
+    color: #4c51b3;
+    font-size: 0.7em;
+
+}
+
+.link_reserva_section{
+    color: blue;
+    font-size: 1em;
+    font-family: 'Michroma', sans-serif;
+    margin: 0px 0.5px;
+    
+}
+.link_reserva_section_1{
+    color: rgb(204, 204, 252);
+    font-size: 1em;
+    font-family: 'Michroma', sans-serif;
+    margin: 0px 0.5px;
+    
+}
+.h_titulo_section{
+    font-size: 1em;    
+}
+
+.h_titulo_section_1{
+    font-size: 1em; 
+    color: rgb(188, 188, 246);
+}
+
+.p_text_section{
+    font-size: 1em;
+
+}
+
+.p_text_section_1{
+    font-size: 1em;
+    color: rgb(55, 55, 167);
+}
+.flex-item_text_1 li, .flex-item_text li{
+    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.codigo_section{
+    color: rgb(1, 90, 1);
+    font-size: 10px;
+}
+
+
+
+/*estilos section- termina*/
+
+
+/*estilos Footer - inicio*/
+
+footer{
+    margin: 1em;
+    width: 98%;
+    height: 340px;
+    padding-top: 30px;
+    border-top-style:double;
+    border-top-width: 0.6em ;
+    border-top-color: #191f8d;
+}
+.footer_flex-container{
+    width: 100%;
+    color: #ddd;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 0.9em;
+}
+.footer_b{
+    width: 100%;
+    color: blue;
+    font-size: 0.9em;
+    text-align: center;
+    border-top:2px solid #191f8d;
+    align-items: center;
+    
+}
+.footer_a_1{
+    width: 30%;  
+    text-align: center;
+    
+    
+}
+.footer_h6{
+    font-size: 2em;
+    font-family: Open Sans;
+    color: rgb(107, 131, 134);
+    text-align: center; 
+}
+li{
+    text-decoration: none;
+    list-style:none;
+    font-size: 1.4em;
+    font-family: 'Assistant', sans-serif;
+    padding: 0.1em;
+    
+}
+
+.link_footer{
+    text-decoration: none !important; 
+}
+
+/*estilos Footer - final*/
+
+
+
+
+
    }
 
 
