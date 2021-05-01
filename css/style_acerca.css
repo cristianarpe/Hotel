@@ -1,20 +1,29 @@
 
-
-
-
 /* estilos section  inicio*/
-section{
-    margin: 37px;
+
+.flex-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px ;
 }
+.flex-item{
+    width: 421px;
+    height: 321px;
+    margin: 0px ;
+}
+
 .Tituo_section{
     text-align: center;
     font-size: 4em;
+    width: 100%;
+    margin: 0px 0px 50px 0;
 }
 
 .img_historia_section{
     width: 420px;
     height: 320px;
-    margin: 13px;
     
 }
 
@@ -32,20 +41,8 @@ section li{
 hr.linie{
     border: 1px solid blue;
     margin: 3em ;
-    
+    width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* estilos section  inicio*/
 
@@ -103,3 +100,337 @@ li{
 }
 
 /*estilos Footer - final*/
+
+
+@media screen and (min-width:2px) and (max-width:380px) {
+    /* Nuestras nuevas reglas con este ancho o menos de pantalla */
+
+    
+
+/*estilos section- inicio*/
+
+/* estilos section  inicio*/
+
+.flex-container{
+
+    display: flex;
+    flex-direction:column;
+    margin: 0px ;
+}
+
+.flex-item{
+    width: 318px;
+    height: 300px;
+    margin: 0px ;
+}
+
+.Tituo_section{
+    text-align: center;
+    font-size: 1em;
+}
+
+.img_historia_section{
+    width: 310px;
+    height: 210px;
+    
+}
+
+.text_historia_section{
+    text-align: justify;
+    font-size: 1em;
+}
+
+section li{
+    font-size: 1em;
+    text-align:justify;
+}
+hr.linie{
+    border: 1px solid blue;
+    
+}
+
+/*estilos section- termina*/
+
+
+/*estilos Footer - inicio*/
+
+footer{
+    margin: 0.5em;
+    width: 98%;
+    height: 610px;
+    padding-top: 5px;
+    border-top-style:double;
+    border-top-width: 0.3em ;
+    border-top-color: #191f8d;
+}
+.footer_flex-container{
+    width: 99%;
+    color: #ddd;
+    display: flex;
+    flex-direction:column;
+    padding: 0.9em;
+    text-align: center;
+}
+.footer_b{
+    width: 99%;
+    color: blue;
+    font-size: 0.8em;
+    text-align: center;
+    border-top:2px solid #191f8d;
+    align-items: center;
+    
+}
+.footer_a_1{
+    width: 98%;  
+    text-align: center;
+    
+}
+.footer_h6{
+    font-size: 2em;
+    font-family: Open Sans;
+    color: rgb(107, 131, 134);
+    text-align: center; 
+}
+li{
+    text-decoration: none;
+    list-style:none;
+    font-size: 1em;
+    font-family: 'Assistant', sans-serif;
+    padding: 0.1em;
+    
+}
+
+.footer_a_1 ul{
+    padding: 0px;
+}
+
+.link_footer{
+    text-decoration: none !important; 
+}
+
+/*estilos Footer - final*/
+
+
+
+
+
+   }
+
+
+@media screen and (min-width:400px) and (max-width:590px) {
+    /* Nuestras nuevas reglas con este ancho o más de pantalla */
+
+    
+
+/*estilos section- inicio*/
+
+/*estilos section- termina*/
+
+
+/*estilos Footer - inicio*/
+
+footer{
+    margin: 0.5em;
+    width: 98%;
+    height: 610px;
+    padding-top: 5px;
+    border-top-style:double;
+    border-top-width: 0.3em ;
+    border-top-color: #191f8d;
+}
+.footer_flex-container{
+    width: 99%;
+    color: #ddd;
+    display: flex;
+    flex-direction:column;
+    padding: 0.9em;
+    text-align: center;
+}
+.footer_b{
+    width: 99%;
+    color: blue;
+    font-size: 0.8em;
+    text-align: center;
+    border-top:2px solid #191f8d;
+    align-items: center;
+    
+}
+.footer_a_1{
+    width: 98%;  
+    text-align: center;
+    
+}
+.footer_h6{
+    font-size: 2em;
+    font-family: Open Sans;
+    color: rgb(107, 131, 134);
+    text-align: center; 
+}
+li{
+    text-decoration: none;
+    list-style:none;
+    font-size: 1.5em;
+    font-family: 'Assistant', sans-serif;
+    padding: 0.1em;
+    
+}
+
+.footer_a_1 ul{
+    padding: 0px;
+}
+
+.link_footer{
+    text-decoration: none !important; 
+}
+
+/*estilos Footer - final*/
+
+
+
+
+
+   }
+
+
+   @media screen and (min-width:600px) and (max-width:800px) {
+    /* Nuestras nuevas reglas con este ancho o más de pantalla */
+
+    
+
+/*estilos section- inicio*/
+
+
+/*estilos section- termina*/
+
+
+/*estilos Footer - inicio*/
+
+footer{
+    margin: 0.5em;
+    width: 98%;
+    height: 610px;
+    padding-top: 5px;
+    border-top-style:double;
+    border-top-width: 0.3em ;
+    border-top-color: #191f8d;
+}
+.footer_flex-container{
+    width: 99%;
+    color: #ddd;
+    display: flex;
+    flex-direction:column;
+    padding: 0.9em;
+    text-align: center;
+}
+.footer_b{
+    width: 99%;
+    color: blue;
+    font-size: 0.8em;
+    text-align: center;
+    border-top:2px solid #191f8d;
+    align-items: center;
+    
+}
+.footer_a_1{
+    width: 98%;  
+    text-align: center;
+    
+}
+.footer_h6{
+    font-size: 2em;
+    font-family: Open Sans;
+    color: rgb(107, 131, 134);
+    text-align: center; 
+}
+li{
+    text-decoration: none;
+    list-style:none;
+    font-size: 1.5em;
+    font-family: 'Assistant', sans-serif;
+    padding: 0.1em;
+    
+}
+
+.footer_a_1 ul{
+    padding: 0px;
+}
+
+.link_footer{
+    text-decoration: none !important; 
+}
+
+/*estilos Footer - final*/
+
+   }
+
+   @media screen and (min-width:801px) and (max-width:1024px) {
+    /* Nuestras nuevas reglas con este ancho o más de pantalla */
+
+    
+
+/*estilos section- inicio*/
+
+
+
+/*estilos section- termina*/
+
+
+/*estilos Footer - inicio*/
+
+footer{
+    margin: 0.5em;
+    width: 98%;
+    height: 610px;
+    padding-top: 5px;
+    border-top-style:double;
+    border-top-width: 0.3em ;
+    border-top-color: #191f8d;
+}
+.footer_flex-container{
+    width: 99%;
+    color: #ddd;
+    display: flex;
+    flex-direction:column;
+    padding: 0.9em;
+    text-align: center;
+}
+.footer_b{
+    width: 99%;
+    color: blue;
+    font-size: 0.8em;
+    text-align: center;
+    border-top:2px solid #191f8d;
+    align-items: center;
+    
+}
+.footer_a_1{
+    width: 98%;  
+    text-align: center;
+    
+}
+.footer_h6{
+    font-size: 2em;
+    font-family: Open Sans;
+    color: rgb(107, 131, 134);
+    text-align: center; 
+}
+li{
+    text-decoration: none;
+    list-style:none;
+    font-size: 1.5em;
+    font-family: 'Assistant', sans-serif;
+    padding: 0.1em;
+    
+}
+
+.footer_a_1 ul{
+    padding: 0px;
+}
+
+.link_footer{
+    text-decoration: none !important; 
+}
+
+/*estilos Footer - final*/
+
+   }
