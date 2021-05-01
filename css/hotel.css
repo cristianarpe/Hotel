@@ -15,34 +15,40 @@
 .caja_1 {
     
     background-image: url("../img/toalla.jpg") !important;
-    background-size: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 0;
     margin-left: 0px;
+    
+    
     }
 
 .logocaja {
-width: 20% !important;
-height: 40% !important;
-}
+width: 20%;
+height: 20%;
+}    
 .textdiv {
-    margin-top: 100px;    
+    margin-top: 180px;    
     margin-bottom: 0;
 }
 /*.card-img-top{
     margin-top: 10px;
     width: 39% !important;
     height: 35%!important;
+    
+
 } */
 .tabla{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap:30px;    
+    grid-gap:30px;
+    
 }
 .uno{
     grid-column:1/2;
     grid-row:1;
     padding: 1em 2em;
+    
     }
 .dos{
     grid-column:2/3;
@@ -71,214 +77,3 @@ height: 40% !important;
 .tabla div{
     text-align: center;
     }
-
-.tabla2{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:30px;    
-}
-.c1{
-    grid-column:1/2;
-    grid-row:1;
-    padding: 0em 2em;
-}
-.c2{
-    grid-column:2/3;
-    grid-row:1;
-    padding: 0em;
-}
-.c3{
-    grid-column:3/4;
-    grid-row:1;
-    padding: 0em 2em;
-}
-.c4{
-    grid-column:2/3;
-    grid-row:2;
-}
-
-
-@media (max-width:475px) {
-    .carousel-item img{
-        height: 250px !important;
-    }
-    .card-img-top img{
-       width: 20%;
-        height: 10%;
-    }
-    .texto-grid{
-    font-size: 4mm;
-    }
-    .tabla{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;    
-    }
-    .uno{
-        grid-column:1/2;
-        grid-row:1;
-        padding: 1em 2em;
-        }
-    .dos{
-        grid-column:1/2;
-        grid-row:2;
-        padding: 0em 2em;
-    }
-    .tres{
-        grid-column:1/2;
-        grid-row:3;
-        padding: 0em 2em;
-    }
-    .cuatro {
-        grid-column:1/2;
-        grid-row:4;
-    
-    }
-    .cinco{
-        grid-column:1/2;
-        grid-row:5;
-        padding: 0em 2em;
-    }
-    .seis{
-        grid-column:1/2;
-        grid-row:6;
-    }
-    .tabla div{
-        text-align: center;
-        }
-    
-    .caja_1 {
-        background: linear-gradient(to right, #434343 0%, black 100%) !important;
-            }
-        
-    .logocaja {
-        visibility: hidden;
-        width: 0% !important;
-        height: 0% !important;
-        }
-        .tabla2{
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-gap:30px;    
-        }
-        .c1{
-            grid-column:1/2;
-            grid-row:1;
-            padding: 0em 2em;
-            color: #fff !important;
-            margin-left: 0 !important;
-            }
-        .c2{
-            display:none
-            
-        }
-        .c3{
-            grid-column:1/2;
-            grid-row:2;
-            padding: 0em 2em;
-            color: #fff !important;
-            margin-top: 0;
-            
-            }
-        .c4{ 
-            grid-column:1/3;
-            grid-row:3;
-        }
-        .fab {
-            color: #fff;
-        }
-        .text-dark{
-            color: #fff !important;
-        }
-}
-@media (min-width:500px) and (max-width:1024px) {
-    .carousel-item img{
-        height: 250px !important;
-    }
-    .texto-grid{
-        font-size: 4mm;
-        }
-    .logocaja {
-    width: 80px !important;
-    height: 90px !important;
-    }
-    .textdiv {
-        margin-top: 20px;    
-        margin-bottom: 20px;
-    }
-    .textdiv h6 {
-        font-size: 3mm;
-    }
-    
-    .tabla{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap:30px;    
-    }
-    .uno{
-        grid-column:1/2;
-        grid-row:1;
-        padding: 1em 2em;
-        }
-    .dos{
-        grid-column:2/3;
-        grid-row:1;
-        padding: 0em 2em;
-    }
-    .tres{
-        grid-column:3/4;
-        grid-row:1;
-        padding: 0em 2em;
-    }
-    .cuatro {
-        grid-column:1/2;
-        grid-row:2;
-    
-    }
-    .cinco{
-        grid-column:2/3;
-        grid-row:2;
-        padding: 0em 2em;
-    }
-    .seis{
-        grid-column:3/4;
-        grid-row:2;
-    }
-    .tabla div{
-        text-align: center;
-        }
-    
-    .tabla2{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap:30px;    
-    }
-    .c1{
-        grid-column:1/2;
-        grid-row:1;
-        padding: 0em 2em;
-    }
-    .c2{
-        grid-column:2/3;
-        grid-row:1;
-        padding: 0em;
-    }
-    .c3{
-        grid-column:3/4;
-        grid-row:1;
-        padding: 0em 2em;
-    }
-    .c4{
-        grid-column:2/3;
-        grid-row:2;
-    }
-    
-
-}
-
-/*
-576 px -> sm
-768px -> md
-992 -> lg
-1200 px -> lg
-*/
