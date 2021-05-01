@@ -109,48 +109,49 @@ li{
 .flex-container{
 
     display: flex;
-    flex-direction:column;
     justify-content: center;
+    flex-direction: column;
     margin: 0px ;
 }
 
 .flex-item{
     width: 300px;
-    height: 300px;
+    height: 210px;
     margin: 0px ;
 }
 
 .Tituo_section{
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     border-top:1px solid #080b42;
     padding: 10px 0 0 0 ;
 }
 
 .img_historia_section{
-    width: 310px;
+    width: 300px;
     height: 210px;
-    
+    margin: 10px;
 }
 
 .text_historia_section{
     text-align: justify;
-    font-size: 1em;
+    font-size: 0.9em;
+    padding: 3px;
+    margin: 10px 10px 10px 14px;
 
 }
 .text_section, .articulo{
-    width: 100%;
+    width: 98%;
 }
 
-section li{
-    font-size: 1em;
-    text-align:justify;
+section li, ul {
+
+    font-size: 0.9em;
+    width:300;
+    padding: 10px  7px 5px 5px;
+    margin: 6px;
 }
-hr.linie{
-    border: 1px solid blue;
-    width: 310px;
-    
-}
+
 
 
 /*estilos section- termina*/
