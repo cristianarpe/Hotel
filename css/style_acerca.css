@@ -19,6 +19,8 @@
     font-size: 4em;
     width: 100%;
     margin: 0px 0px 50px 0;
+    border-top:1px solid #080b42;
+    padding: 21px 0 0 0 ;
 }
 
 .img_historia_section{
@@ -100,33 +102,29 @@ li{
 }
 
 /*estilos Footer - final*/
-
-
 @media screen and (min-width:2px) and (max-width:380px) {
     /* Nuestras nuevas reglas con este ancho o menos de pantalla */
 
-    
-
-/*estilos section- inicio*/
-
-/* estilos section  inicio*/
 
 .flex-container{
 
     display: flex;
     flex-direction:column;
+    justify-content: center;
     margin: 0px ;
 }
 
 .flex-item{
-    width: 318px;
+    width: 300px;
     height: 300px;
     margin: 0px ;
 }
 
 .Tituo_section{
     text-align: center;
-    font-size: 1em;
+    font-size: 4em;
+    border-top:1px solid #080b42;
+    padding: 10px 0 0 0 ;
 }
 
 .img_historia_section{
@@ -138,6 +136,10 @@ li{
 .text_historia_section{
     text-align: justify;
     font-size: 1em;
+
+}
+.text_section, .articulo{
+    width: 100%;
 }
 
 section li{
@@ -146,8 +148,10 @@ section li{
 }
 hr.linie{
     border: 1px solid blue;
+    width: 310px;
     
 }
+
 
 /*estilos section- termina*/
 
