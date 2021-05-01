@@ -870,7 +870,7 @@ li{
 
 .flex-item_text{
     width: 765px;
-    height: 850px;
+    height: 530px;
     background-color: #080b35;
     border-radius: 15px 15px 0 0 ;
     border-right: 3px   solid rgb(164, 164, 246);
@@ -883,7 +883,7 @@ li{
 
 .flex-item_text_1{
     width: 765px;
-    height: 650px;
+    height: 530px;
     background-color: rgb(229, 226, 226);
     border-radius: 0 0 15px 15px  ;
     border-bottom: 3px   solid #191f8d;
