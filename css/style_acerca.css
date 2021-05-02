@@ -258,9 +258,77 @@ li{
 @media screen and (min-width:400px) and (max-width:590px) {
     /* Nuestras nuevas reglas con este ancho o más de pantalla */
 
-    
+ 
+.flex-item_1{
+    display:none;
+}
 
-/*estilos section- inicio*/
+.flex-container{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px ;
+    align-items: center;
+}
+
+.flex-item_1, .flex-item_2,.flex-item_3{
+    width: 370px;
+    height: 310px;
+    margin: 10px 0px ;
+}
+
+.Tituo_section{
+    text-align: center;
+    font-size: 2em;
+    border-top:1px solid #080b42;
+    margin: 2px;
+}
+
+
+
+.img_historia_section_1, .img_historia_section_2, .img_historia_section_3{
+    width: 370px;
+    height: 310px;
+    margin: 7px;
+    
+}
+.img_historia_section_4, .img_historia_section_5, .img_historia_section_6{
+    width: 370px;
+    height: 310px;
+    margin: 7px;
+    
+}
+.img_historia_section_7, .img_historia_section_8, .img_historia_section_9{
+    width: 370px;
+    height: 310px;
+    margin: 7px;
+    
+}
+
+.text_historia_section{
+    text-align: justify;
+    font-size: 0.9em;
+    padding: 3px;
+    margin: 10px 10px 10px 14px;
+
+}
+
+
+
+.text_section, .articulo{
+    width: 98%;
+}
+
+section li, ul {
+
+    font-size: 0.9em;
+    width:300;
+    padding: 10px  7px 5px 5px;
+    margin: 6px;
+}
+
+
 
 /*estilos section- termina*/
 
@@ -307,7 +375,7 @@ footer{
 li{
     text-decoration: none;
     list-style:none;
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Assistant', sans-serif;
     padding: 0.1em;
     
@@ -322,6 +390,8 @@ li{
 }
 
 /*estilos Footer - final*/
+
+
 
 
 
@@ -333,71 +403,142 @@ li{
    @media screen and (min-width:600px) and (max-width:800px) {
     /* Nuestras nuevas reglas con este ancho o más de pantalla */
 
+
+    .flex-item_2{
+        display:none;
+    }
+    
+    .flex-container{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px ;
+        align-items: center;
+    }
+    
+    .flex-item_1, .flex-item_2,.flex-item_3{
+        width: 570px;
+        height: 410px;
+        margin: 10px 0px ;
+    }
+    
+    .Tituo_section{
+        text-align: center;
+        font-size: 2em;
+        border-top:1px solid #080b42;
+        margin: 2px;
+    }
+    
+    
+    
+    .img_historia_section_1, .img_historia_section_2, .img_historia_section_3{
+        width: 570px;
+        height: 410px;
+        margin: 7px;
+        
+    }
+    .img_historia_section_4, .img_historia_section_5, .img_historia_section_6{
+        width: 570px;
+        height: 410px;
+        margin: 7px;
+        
+    }
+    .img_historia_section_7, .img_historia_section_8, .img_historia_section_9{
+        width: 570px;
+        height: 410px;
+        margin: 7px;
+        
+    }
+    
+    .text_historia_section{
+        text-align: justify;
+        font-size: 0.9em;
+        padding: 3px;
+        margin: 10px 10px 10px 14px;
+    
+    }
+    
+    
+    
+    .text_section, .articulo{
+        width: 98%;
+    }
+    
+    section li, ul {
+    
+        font-size: 0.9em;
+        width:300;
+        padding: 10px  7px 5px 5px;
+        margin: 6px;
+    }
+    
+    
+    
+    /*estilos section- termina*/
+    
+    
+    /*estilos Footer - inicio*/
+    
+    footer{
+        margin: 0.5em;
+        width: 98%;
+        height: 610px;
+        padding-top: 5px;
+        border-top-style:double;
+        border-top-width: 0.3em ;
+        border-top-color: #191f8d;
+    }
+    .footer_flex-container{
+        width: 99%;
+        color: #ddd;
+        display: flex;
+        flex-direction:column;
+        padding: 0.9em;
+        text-align: center;
+    }
+    .footer_b{
+        width: 99%;
+        color: blue;
+        font-size: 0.8em;
+        text-align: center;
+        border-top:2px solid #191f8d;
+        align-items: center;
+        
+    }
+    .footer_a_1{
+        width: 98%;  
+        text-align: center;
+        
+    }
+    .footer_h6{
+        font-size: 2em;
+        font-family: Open Sans;
+        color: rgb(107, 131, 134);
+        text-align: center; 
+    }
+    li{
+        text-decoration: none;
+        list-style:none;
+        font-size: 1em;
+        font-family: 'Assistant', sans-serif;
+        padding: 0.1em;
+        
+    }
+    
+    .footer_a_1 ul{
+        padding: 0px;
+    }
+    
+    .link_footer{
+        text-decoration: none !important; 
+    }
+    
+    /*estilos Footer - final*/
+    
     
 
-/*estilos section- inicio*/
 
-
-/*estilos section- termina*/
-
-
-/*estilos Footer - inicio*/
-
-footer{
-    margin: 0.5em;
-    width: 98%;
-    height: 610px;
-    padding-top: 5px;
-    border-top-style:double;
-    border-top-width: 0.3em ;
-    border-top-color: #191f8d;
-}
-.footer_flex-container{
-    width: 99%;
-    color: #ddd;
-    display: flex;
-    flex-direction:column;
-    padding: 0.9em;
-    text-align: center;
-}
-.footer_b{
-    width: 99%;
-    color: blue;
-    font-size: 0.8em;
-    text-align: center;
-    border-top:2px solid #191f8d;
-    align-items: center;
-    
-}
-.footer_a_1{
-    width: 98%;  
-    text-align: center;
-    
-}
-.footer_h6{
-    font-size: 2em;
-    font-family: Open Sans;
-    color: rgb(107, 131, 134);
-    text-align: center; 
-}
-li{
-    text-decoration: none;
-    list-style:none;
-    font-size: 1.5em;
-    font-family: 'Assistant', sans-serif;
-    padding: 0.1em;
-    
-}
-
-.footer_a_1 ul{
-    padding: 0px;
-}
-
-.link_footer{
-    text-decoration: none !important; 
-}
-
-/*estilos Footer - final*/
 
    }
 
