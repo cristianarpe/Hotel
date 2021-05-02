@@ -8,7 +8,7 @@
     justify-content: space-around;
     margin: 0px ;
 }
-.flex-item{
+.flex-item_1, .flex-item_2 , .flex-item_3{
     width: 421px;
     height: 321px;
     margin: 0px ;
@@ -23,7 +23,17 @@
     padding: 21px 0 0 0 ;
 }
 
-.img_historia_section{
+.img_historia_section_1, .img_historia_section_2, .img_historia_section_3{
+    width: 420px;
+    height: 320px;
+    
+}
+.img_historia_section_4, .img_historia_section_5, .img_historia_section_6{
+    width: 420px;
+    height: 320px;
+    
+}
+.img_historia_section_7, .img_historia_section_8, .img_historia_section_9{
     width: 420px;
     height: 320px;
     
@@ -106,15 +116,20 @@ li{
     /* Nuestras nuevas reglas con este ancho o menos de pantalla */
 
 
+.flex-item_1, .flex-item_3{
+    display:none;
+}
+
 .flex-container{
 
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 0px ;
+    align-items: center;
 }
 
-.flex-item{
+.flex-item_1, .flex-item_2,.flex-item_3{
     width: 300px;
     height: 210px;
     margin: 10px 0px ;
@@ -124,13 +139,28 @@ li{
     text-align: center;
     font-size: 2em;
     border-top:1px solid #080b42;
-    padding: 10px 0 0 0 ;
+    margin: 2px;
 }
 
-.img_historia_section{
+
+
+.img_historia_section_1, .img_historia_section_2, .img_historia_section_3{
     width: 300px;
     height: 210px;
-    margin: 10px;
+    margin: 7px;
+    
+}
+.img_historia_section_4, .img_historia_section_5, .img_historia_section_6{
+    width: 300px;
+    height: 210px;
+    margin: 7px;
+    
+}
+.img_historia_section_7, .img_historia_section_8, .img_historia_section_9{
+    width: 300px;
+    height: 210px;
+    margin: 7px;
+    
 }
 
 .text_historia_section{
@@ -140,6 +170,9 @@ li{
     margin: 10px 10px 10px 14px;
 
 }
+
+
+
 .text_section, .articulo{
     width: 98%;
 }
