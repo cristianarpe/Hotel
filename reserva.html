@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticias</title>
+    <title>Reserva</title>
     <link rel="stylesheet" href="css/style_reserva.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="shortcut icon" href="img/logonegro.ico" type="image/x-icon">
+   
 
 </head>
 <body class="padre" >
@@ -45,22 +46,88 @@
 
     <section class="hijo_2" >
         <div class="padre_section">
-            <div class="hijo_section">
-                <h1>RESERVA TU ESTANCIA</h1>
+            <div class="hijo_section_1">
+                <h1 class="Titulo_1">RESERVA TU ESTANCIA</h1>
+                <br>
+                <h4 class="Titulo_2">RESERVE SU HABITACIÓN AHORA</h4>
             </div>
-            <article class="hijo_section">
+            <article class="hijo_section_2">
                 <p>Habitaciones amplias, cómodas y acogedoras, en diferentes tipos de habitación
                     (Estándar, Superior King, Superior Twin, Junior Suite y Suite con cocina) 
                     son las mejores opciones de hospedaje para viajeros individuales o en grupos,
                     familias y largas estadías.</p>
             </article>
             <div class="hijo_section">
-                
+                <form action="">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Nombre</label>
+                            <input type="text" class="form-control" placeholder="Tu nombre">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="inputLast">Tu Apellido</label>
+                            <input type="text" class="form-control" placeholder="Tu Apellido">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Direccion de correo electronico</label>
+                            <input type="email" class="form-control" placeholder="Su correo">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="inputPhone">Numero de telefono</label>
+                            <input type="number" class="form-control" placeholder="Su telefono">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="inputPhone">Numero de telefono</label>
+                            <input type="number" class="form-control" placeholder="Su telefono">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="exampleFormControlSelect1">Pais</label>
+                            <select   class="form-control" id="exampleFormControlSelect1" >
+                                <option selected> </option>
+                                <option>Colombia</option>
+                                <option>Argentina</option>
+                                <option>Chile</option>
+                                <option>Peru</option>
+                                <option>Panama</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="example-date-input" >Registro de entrada</label>
+                            <div class="col-13">
+                            <input class="form-control" type="date" value="" id="example-date-input">
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="example-date-input" >Registro de salida</label>
+                            <div class="col-13">
+                            <input class="form-control" type="date" value="" id="example-date-input">
+                            </div>
+                        </div>
+
+
+
+                        <div class="form-group col-md-6">
+                            <label for="comentarios">Tus comentarios</label>
+                            <textarea name="" id="comentarios" cols="104" rows="5"></textarea>
+                        </div>
+
+
+                        
+                        
+                            
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-lg active">Reservar</button>
+                </form>
             </div>
             <div class="hijo_section">
 
             </div>
-            <div class="hijo_section"></div>
             <div class="hijo_section"></div>
         </div>
     </section>
@@ -142,10 +209,12 @@
             <p>Hoteles Nova. no es responsable del contenido en sitios web externos. © 2021 Hoteles Group Nova Company.<br> Todos los derechos reservados.</p>
         </div>
     </footer>
-
+       
 
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/popper.min.js" ></script>
         <script src="js/bootstrap.js" ></script>
+
+        
 </body>
 </html>
