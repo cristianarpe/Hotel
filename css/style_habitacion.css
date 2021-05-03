@@ -13,3 +13,130 @@ height: 50px;
 opacity: 0%;
 background-color: antiquewhite;
 }
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px ;
+    justify-content: center;
+
+}
+
+.flex-item{
+    width: 600px;
+    height: 500px;
+    margin: 20px 0;
+}
+
+.img_section_paquetes{
+    width: 600px;
+    height: 500px;
+    border-bottom: 5px   solid rgb(164, 164, 246);
+    border-top: 5px   solid rgb(164, 164, 246);
+    border-right: 5px   solid rgb(164, 164, 246);
+    border-left: 2px   solid rgb(254, 254, 255);
+    box-shadow: 5px 5px 5px rgb(109, 109, 122);
+    border-radius: 0 15px 15px 0;
+}
+
+.img_section_paquetes_1{
+    width: 600px;
+    height: 500px;
+    border-bottom: 5px   solid #191f8d;
+    border-top: 5px   solid #191f8d;
+    border-left: 5px   solid #191f8d;
+    border-right: 2px   solid rgb(254, 254, 255);
+    box-shadow: 5px 5px 5px rgb(109, 109, 122);
+    border-radius: 15px 0 0 15px ;
+}
+
+.flex-item_text{
+    width: 700px;
+    height: 500px;
+    background-color: #080b35;
+    margin: 20px 0;
+    border-radius: 15px 0 0 15px ;
+    border-bottom: 5px   solid rgb(164, 164, 246);
+    border-top: 5px   solid rgb(164, 164, 246);
+    border-left: 5px   solid rgb(164, 164, 246);
+    border-right: 4px   solid rgb(254, 254, 255);
+    box-shadow: 5px 5px 5px rgb(109, 109, 122);
+    padding: 2em;
+}
+
+.flex-item_text_1{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(229, 226, 226);
+    margin: 20px 0;
+    border-radius: 0 15px 15px 0 ;
+    border-bottom: 5px   solid #191f8d;
+    border-top: 5px   solid #191f8d;
+    border-right: 5px   solid #191f8d;
+    border-left: 4px   solid rgb(254, 254, 255);
+    box-shadow: 5px 5px 5px rgb(109, 109, 122);
+    padding: 2em;
+}
+
+ .flex-item_text_1 li{
+    color:  #111566;;
+    font-size: 15px;
+    margin: 1em;
+
+}
+.flex-item_text li{
+    color: #4c51b3;
+    font-size: 15px;
+    margin: 1em;
+
+
+}
+
+.flex-item_text ul, .flex-item_text_1 ul{
+    margin: 2px;
+    
+    
+}
+
+.link_reserva_section{
+    color: blue;
+    font-size: 15px;
+    font-family: 'Michroma', sans-serif;
+    margin: 0px 10px;
+    
+}
+.link_reserva_section_1{
+    color: rgb(204, 204, 252);
+    font-size: 15px;
+    font-family: 'Michroma', sans-serif;
+    margin: 0px 10px;
+    
+}
+.h_titulo_section{
+    font-size: 1.8em;    
+}
+
+.h_titulo_section_1{
+    font-size: 1.8em; 
+    color: rgb(188, 188, 246);
+}
+
+.p_text_section{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.p_text_section_1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(55, 55, 167);
+}
+.flex-item_text_1 li, .flex-item_text li{
+    letter-spacing: 0.8px;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.codigo_section{
+    color: rgb(1, 90, 1);
+    font-size: 20px;
+}
