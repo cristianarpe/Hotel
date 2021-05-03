@@ -1,4 +1,13 @@
 
+
+.cuarto{
+    align-content:center
+
+}
+
+.cuarto:hover{
+    opacity: 50%;
+}
 .degradehab {
     background: linear-gradient(to right, #3775d1 0%, black 100%);
 }
@@ -6,7 +15,6 @@
 .prueba{
 width: 50px;
 height: 50px;
-
 }
 
 .prueba:hover{
