@@ -14,28 +14,28 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/logonegro.png" width="80" height="80" alt="Logo Hoteles Nova"> HOTEL NOVA SAS</a>
+            <a class="navbar-brand" href="index.html"><img src="img/logonegro.png" width="80" height="80" alt="Logo Hoteles Nova"> HOTEL NOVA SAS</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="">Habitaciones</a>
+                        <a class="nav-link" href="habitacion.html">Habitaciones</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="">Paquetes</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="paquetes.html">Paquetes</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Acerca de</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca de</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Noticias</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Contacto</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="reserva.html">Reservar ahora</a>
                     </li>
                 </ul>
@@ -44,12 +44,14 @@
     </nav>
 
     <section>
-        <h1 class="text-center font-weight:600 text-primary" style="color:rgb(226, 227, 235)">
+
+
+        <h1 class="text-center font-weight-bold text-primary" style="color:blanchedalmond">
             <br>
             HABITACIONES
             <br></h1>
 
-<p class="text-center font-size:100" style="color:blanchedalmond">Dormitorios diseñados para proporcionarle el máximo bienestar. Las 311 habitaciones de cada uno de los Hoteles NOVA son espacios únicos que le proponen un descanso muy especial a pocos metros de los principales lugares de interés turístico y de negocios de las principales ciudades. Relájese en sus vacaciones y viajes de negocios mientras disfruta de una estadía llena de confort en nuestros alojamientos.</p>
+<p class="text-center" style="color:blanchedalmond">Dormitorios diseñados para proporcionarle el máximo bienestar. Las 311 habitaciones de cada uno de los Hoteles NOVA son espacios únicos que le proponen un descanso muy especial a pocos metros de los principales monumentos de interés turístico y de negocios de las principales ciudades. Relájese en sus vacaciones y viajes de negocios mientras disfruta de una estadía llena de confort en nuestros alojamientos.</p>>
 
 
         <div class="flex-container">
@@ -86,6 +88,21 @@
                     <h2 class="h_titulo_section" style="color:rgb(206, 131, 18)">HABITACION STANDAR LOOK</h2>
                     <br>
                     <P class="p_text_section" style="color:rgb(7, 37, 133)"> Si desea un hambiente rodeado de una excelente vista que le permita disfrutar de la naturaleza y privacidad al mismo tiempo, 
+        <div class="cuartos">
+            <div class="cuarto">
+                <img   src="img\habitaciones\2.jpg" alt="sencilla"width="600px" height="200px" >
+            </div>
+            
+            <div class="texstand" >
+                <p aling="justify-content-end" style="color:blanchedalmond">
+                  HABITACION STANDAR <BR>Dentro de un habiente elegante, usted encontrará toda la privacidad y confort para sus viajes de negocios<br>
+                <BR> Todas nuestras habitaciones están equipadas con cajilla de seguridad, televisión, mesa de trabajo, wifi sin costo adicional y baño privado con amenities.
+                </p>
+            </div>
+            <div class="texlook">
+                <p aling="justify-content-end" style="color:blanchedalmond">
+                    <br> STANDAR LOOK<BR>
+                    Si desea un hambiente rodeado de una excelente vista que le permita disfrutar de la naturaleza y privacidad al mismo tiempo, 
                     nuestras habitaciones LOOK son la opcion perfecta para que disfrute de una excelente experiencia.
                     </p>
                     <p class="p_text_section" style="color:rgb(7, 37, 133)">Haga clic aquí para -><a class="link_reserva_section" href="reserva.html" style="color:rgb(14, 8, 1)" > RESERVAR :</a> <a class="codigo_section" href="reserva.html" style="color:rgb(14, 8, 1)" >
@@ -154,6 +171,20 @@
 
 
         </section>
+            <div class="cuarto">
+                <img src="img\habitaciones\9.webp" alt="doble"width="600px" height="200px">
+            </div>
+            <div class="textmiel">
+                <br><br>
+                <p aling="justify-content-end" style="color:blanchedalmond">SUITES MATRIMONIAL<BR>
+                    La Suite Matrimonial es una amplia habitación doble con  sala de estar y sillón, aire acondicionado, TV de pantalla plana por cable, minibar y salida a la piscina privada. 
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+    
+    </section>
     <br>
     <br>
     <aside>
@@ -178,35 +209,35 @@
                 text-align: center;
             }
 
-            .cuartos expand-lg {
+            .cuartos{
                 display: grid;
                 grid-template-columns: repeat(2, 6fr);
                 grid-gap:15px;
                 text-align: center;
-                
             }
             .uno{
-                grid: column 1px;
-                grid: row 10px;
+                grid: column 2px;
+                grid: row 6px;
             }
             .cuartos div{
-                background-color: rgb(147, 190, 229);
+                background-color: rgb(131, 140, 141);
                 padding: 2px;
-                margin-left: 10%;
-                margin-right: 10%;
-                margin-top: 3%;
-                margin-bottom: 3%;
+                margin-left: 3%;
+                margin-right: 3%;
             }
             
-            .cuarto:hover{
-                opacity: 70%;
-                align-items: center;
+            .prueb:focus-visible{
+                background-image: url("img\habitaciones\16.jpg");
             }
             .cuarto{
                 align-content:center
 
             }
 
+            
+            .cuarto:hover{
+                opacity: 50%;
+            }
 
 
 
