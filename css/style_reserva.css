@@ -1,53 +1,81 @@
 
-
-
-
-
-
-
 /* Section inicio*/
+
+.padre{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 1%;
+
+}
+.hijo_2{
+    width: 59.5%;
+    background-color: #191f8d;
+    margin: 3px;
+}
+.hijo_3{
+    width: 39.5%;
+    margin: 3px;
+    background-color: #7DF9FF;
+    border-radius: 15px;
+}
+.hijo_4{
+    width: 100%;
+}
 
 .padre_section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0px ;
+    margin:10px;
+
+    background-color: #78788a;
 }
 
 .hijo_section{
-    width: 421px;
-    height: 321px;
-    margin: 0px ;
-    background-color: #191f8d;
+    width: 805px;
+    height: 121px;
+    margin: 2px ;
+    background-color: #4d574a;
+}
+
+/* Section Final*/
+/* Aside Inicia*/
+
+.padre_aside{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin:5px;
+    width: 542px;
+}
+
+.hijo_aside, .hijo_aside_text{
+    width: 540px;
+    margin: 1px ;
+    
+}
+
+.hijo_aside_text{
+    margin: 2px;
+    padding: 0.8em;
+}
+
+.image_aside{
+    width: 520px;
+    height: 410;
+    margin: 10px;
+    border-radius: 15px;
+    border:4px solid #191f8d;
+    border-style:ridge;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Section Final*/
-
+/* Aside Final*/
 
 /* footer inicio*/
 
 
 footer{
     margin: 1em;
-    width: 98%;
     height: 340px;
     padding-top: 30px;
     border-top-style:double;
