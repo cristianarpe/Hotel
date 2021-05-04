@@ -17,11 +17,12 @@ section p{
     justify-content: center;
     margin: 1%;
 }
-.hijo_section_1,.hijo_section_2{
+.hijo_section_1,.hijo_section_2,.hijo_section_3, .hijo_section_4, .hijo_section_5, .hijo_section_6 {
     justify-content: center;
     width: 45%;
     margin: 1em;
 }
+..hijo_section_4
 section img{
     border-radius: 15px;
 }
