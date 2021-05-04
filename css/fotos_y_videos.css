@@ -9,6 +9,7 @@ section p{
     background-color: #fbfbfd;
     color: black;
     border-radius: 15px;
+    font-size: 1.2em
 }
 
 .padre_section{
@@ -19,16 +20,20 @@ section p{
 }
 .hijo_section_1,.hijo_section_2{
     justify-content: center;
-    width: 45%;
+    width: 70%;
     margin: 1em;
 }
 .hijo_section_3, .hijo_section_4{
     justify-content: center;
-    width: 45%;
+    width: 70%;
     margin: 1em;
 
 }
 
+section img{
+    width: 521.27px;
+    height: 300;
+}
 
 
 
